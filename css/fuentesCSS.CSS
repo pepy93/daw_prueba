@@ -1,0 +1,21 @@
+/*Tipos de fuentes utilizados en la página*/
+@font-face {
+	font-family: 'Fears'; 
+	src: url("../fuentes/Fears.ttf");
+}
+@font-face {
+	font-family: 'amhos___'; 
+	src: url("../fuentes/amhos___.ttf");
+}
+@font-face {
+	font-family: 'demonpriest'; 
+	src: url("../fuentes/demonpriest.ttf");
+}
+@font-face {
+	font-family: 'kishore'; 
+	src: url("../fuentes/kishore.ttf");
+}
+@font-face {
+	font-family: 'BloodBlocks'; 
+	src: url("../fuentes/BloodBlocks.ttf");
+}

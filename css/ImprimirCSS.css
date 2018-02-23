@@ -1,0 +1,61 @@
+	#cabecera h3, #redessociales, #menu .nivel1:first-child, .nivel1:nth-child(2), .nivel1:nth-child(3), .nivel1:nth-child(5), #titulo1, #izquierdovideo, #derechovideo, #titulo4, #preguntas, 
+	#inicio img, #tarifas table th, #map, .poAvi, #menu, #quees iframe, #contacto, #titulo5, #titulo6 {
+		display:none;
+	}
+	body {
+		background-image: url("../imagenes/fondos/gris2.jpg");
+	}
+	p {
+	font-family:'kishore';
+	font-weight:bold;
+	font-size:26px;
+	}
+	/*Contenedor*/
+	#contenedor {
+		width:1000px;
+		margin: 0 auto;
+	}
+	/*Cabecera*/
+	#cabecera h1 {
+		text-align:center;
+		font-size:45px;
+		text-shadow: 3px 5px #9400D3;
+	}
+	/*Titulos*/
+	#titulo2, #titulo3, #titulo4, #titulo5, #titulo6  {
+		text-align:center;
+		font-family: 'Fears';
+		font-size:18px;
+	}
+	/*Juegos*/
+	#juego1 h1, #juego2 h1  {
+		text-align:center;
+		color:#9400D3;
+		font-size:36px;
+		color:#9400D3;
+	}
+	/*Tarifas*/
+	#tarifas table td{
+		font-size:30px;
+		text-align:center;
+	}
+	#tarifas span {
+		color:#9400D3;
+	}
+	/*Para reservar*/
+	#tarifas h2{
+		text-align:center;
+		font-size: 30px;
+	}
+	/*Pie*/
+	#pie {
+		display:flex;
+		justify-content:space-around;
+	}
+	#pie p {
+		color:darkgrey;
+		font-size:30px;
+	}
+	#pie em {
+		font-size:30px;
+	}

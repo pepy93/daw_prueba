@@ -1,0 +1,198 @@
+/*Versión tablet*/
+@media (min-width:601px) and (max-width:1000px){
+	/*Encabezado*/
+	body {
+		background-size: 100% 2000px; /*2632px*/
+	}
+	
+	#contenedor {
+		width:100%;
+	}
+	
+	#cabecera {
+		padding:2em;
+		height:50px;
+	}
+	
+	#cabecera h1 {
+		font-size:42px;
+	}
+	
+	#cabecera h3 {
+		margin-top:60px;
+		font-size:18px;
+	}	
+	
+	#redessociales a img {
+		width:5%;
+		height:45px;
+	}
+	
+	/*Menú*/	
+	#menu li {
+		width:14%;
+	}
+	
+	#menu ul li a {
+		font-size:24px;
+		padding-top:8.5px;
+	}
+	
+	#menu a:hover {
+		color:#D3D3D3;
+	}
+	/*Inicio*/	
+	#inicio img {
+		width:100%;
+		height:490px;
+	}
+	
+	/*Titulos*/
+	#titulo1 {
+		text-align:center;
+		font-family: 'Fears';
+		font-size:24px;
+		margin-top:5em;
+	}
+	#titulo2, #titulo3, #titulo4, #titulo5, #titulo6  {
+		text-align:center;
+		font-family: 'Fears';
+		font-size:24px;
+		margin-top:2em;
+	}
+	
+	/*que es*/
+	#quees iframe {
+		width:100%
+	}
+	
+	#quees p#izquierdovideo, #derechovideo {
+		width:100%;
+		text-align:justify;
+		font-size:18px;
+	}
+	
+	/*juegos*/
+	#juegos #juego1 {
+		background-image: url('../imagenes/juegos/juego5.jpg');
+		width:100%;
+		height:400px;
+	}
+	
+	#juegos #juego1 h1{
+		font-size:40px;
+		padding-top:1em;
+	}
+	
+	#juegos #juego1 p, #juego2 p{
+		font-size:20px;
+		color:white;
+		text-align:justify;
+		margin-left:1em;
+		margin-right:1em;
+	}
+	
+	#juegos #juego2 {
+		background-image: url('../imagenes/juegos/juego4.jpg');
+		width:100%;
+		height:400px;
+	}
+	
+	#juegos #juego2 h1{
+		font-size:38px;
+		padding-top:1em;
+	}
+	
+	/*tarifas*/
+	#tarifas table {
+		width: 100%;
+		font-family:'demonpriest';
+	}
+	
+	#tarifas th {
+		text-align:center;
+		font-size:28px;
+		width:50%;
+	}
+	
+	#tarifas tr td{
+		text-align:center;
+		font-size:24px;
+		margin-bottom:2em;
+		width:50%;
+	}
+	
+	#tarifas em{
+		color:darkgrey;	
+	}
+	
+	#tarifas span {
+		color:#9400D3;
+		font-family:'BloodBlocks'; 
+		font-size:35px;
+	}
+	
+	#tarifas h3 {
+		text-align:center;
+		font-size:30px;
+		font-family:'demonpriest';
+	}
+	
+	#tarifas p {
+		font-size:20px;
+		text-align:justify;
+		font-size:18px;
+	}
+
+	#Tarifas h2{
+		font-family:'demonpriest';
+		font-size:25px;
+		text-align:center;
+	}
+	
+	/*Preguntas frecuentes*/
+	#preguntas ul li a {
+		font-size:25px;
+	}
+	
+	#preguntas ul li p.nivel2{
+		font-size:18px;
+	}
+	
+	/*Contacto*/
+	#contacto {
+		display:flex;
+	}
+	
+		/*Mapa*/
+	#map {
+        height: 350px;
+        width: 80%;
+		margin-left:2em;
+		border-right: 2px solid #9400D3;
+		border-left: 2px solid #9400D3;
+    }
+	
+	#redessociales2 {
+		position:absolute;
+	}
+	
+	#redessociales2 a img {
+		margin-top:19em;
+		margin-left:1.5em;
+		width:65px;
+		height:65px;
+	}
+	
+	#redessociales2 a {
+		text-decoration:none;
+	}
+	
+	/*El calendario hay que hacerlo con código javascript lo haré mas adelante*/
+	#calendario img{
+		width:98%;
+		height:1000px;
+		border: solid 5px #9400D3;
+		margin-bottom:1em;
+	}
+}

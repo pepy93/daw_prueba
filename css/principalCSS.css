@@ -1,0 +1,224 @@
+/*La página de ordenador la hice con tamaño fijo en px. Los otros tamaños (tablet y movil) con %*/
+/*Contenedor centrado en todos los tamaños*/
+/*--------------------CONTENEDOR--------------------------------------------*/
+#contenedor {
+	margin: 0 auto;
+}
+
+/*--------------------BODY--------------------------------------------*/	
+/*Fondo de página (ordenador y tablet)*/
+body {
+	background-image: url("../imagenes/fondos/fondoEncabezado.jpg");
+	background-repeat:no-repeat;
+}
+
+/*--------------------CABECERA--------------------------------------------*/
+/*Colocación (ordenador y tablet)*/
+#cabecera {
+	display:flex;
+}
+
+/*Etiqueta h1 todos los tamaños*/
+#cabecera h1 {
+	margin: 0 auto;
+	font-family:'amhos___';
+	text-shadow: 3px 5px #9400D3;
+}
+
+/*Etiqueta h3 (ordenador y tablet)*/
+#cabecera h3 {
+	position:absolute;
+	font-family:'Fears';
+}
+
+/*Redes sociales colocación (ordenador y tablet)*/
+#redessociales {
+	position:absolute;
+}
+
+/*Redes sociales imagen (ordenador y tablet)*/
+#redessociales a img {
+	margin-top:15px;
+}
+
+/*Redes sociales etiqueta a (ordenador y tablet)*/
+#redessociales a {
+	text-decoration:none;
+}
+	
+/*--------------------MENÚ--------------------------------------------*/
+/*Fondo todos los tamaños*/
+#menu {
+	background-color:#9400D3;
+	height:40px;
+}
+
+/*Etiqueta ul todos los tamaños*/
+#menu ul {
+	padding:0px;
+}
+
+/*Etiqueta li todos los tamaños*/
+#menu li {
+	list-style-type:none;
+	position:relative;
+}
+
+/*Etiqueta a todos los tamaños*/
+#menu ul li a {
+	display:block;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	font-family:'demonpriest';
+	text-shadow:2px 3px rgb(51, 51, 51);	
+}
+
+/*Etiqueta ul li ul todos los tamaños*/
+#menu ul li ul {
+	display:none;
+}
+
+/*Etiqueta ul li.nivel1 todos los tamaños*/
+#menu ul li.nivel1 { 
+	float:left; 
+	color:#9400D3;
+	border:none;
+}
+
+/*Sticky menú para todos los tamaños*/
+#menu {
+	position: -webkit-sticky; 
+    position: sticky;
+    top:0;
+}
+
+/*--------------------INICIO--------------------------------------------*/
+/*Borde inicio (ordenador y tablet)*/
+#inicio {
+	border-bottom: 2px solid #9400D3;
+}
+
+/*Etiqueta p (ordenador y tablet)*/
+#inicio p {
+	text-align:center;
+}
+
+/*--------------------TITULOS--------------------------------------------*/
+
+
+/*--------------------PARRAFOS--------------------------------------------*/
+/*Todos los parrafos con la misma fuente y en negrita*/
+p {
+	font-family:'kishore';
+	font-weight:bold;
+}
+
+
+/*--------------------QUÉ ES--------------------------------------------*/
+/*Etiqueta iframe[VIDEO] (tablet y movil) */
+#quees iframe {
+	width:100%
+}
+
+/*--------------------JUEGOS--------------------------------------------*/
+/*Etiqueta h1 todos los tamaños*/
+#juego1 h1, #juego2 h1  {
+		text-align:center;
+		font-family:'demonpriest';
+		color:#9400D3;
+}
+/*--------------------TARIFAS--------------------------------------------*/
+
+/*--------------------PREGUNTAS FRECUENTES-------------------------------*/
+/*Etiqueta ul (ordenador y tablet)*/
+#preguntas ul {
+	padding:0px;
+}
+
+/*Etiqueta li (ordenador y tablet)*/	
+#preguntas li {
+	list-style-type:none;
+}
+
+/*Etiqueta ul li a (ordenador y tablet)*/
+#preguntas ul li a {
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-family:'demonpriest';
+	font-size:30px;
+	text-shadow:1px 1px rgb(51, 51, 51);	
+	padding-bottom:3px;
+	padding-top:7px;
+	background:darkgrey;
+	margin-top:0.5em;
+	text-align:center;
+}
+
+/*Etiqueta ul li p (ordenador y tablet)*/
+#preguntas ul li p {
+	display:none;
+}
+
+/*Etiqueta ul li:hover p.nivel2(ordenador y tablet)*/
+#preguntas ul li:hover p.nivel2{
+	display: block;
+}
+
+/*--------------------CONTACTO-------------------------------*/
+/*Etiquetas del formulario para todos los tamaños*/
+label {
+	color:white;
+	font-family:'demonpriest';
+	font-size:24px;
+	margin-left:0.5em;
+}
+	
+.row {
+	background-color:#9400D3;
+	border: 2px solid #9400D3;
+}
+	
+.enviar {
+	background-color:#9400D3;
+	font-family:'demonpriest';
+	font-size:24px;
+	margin-left:5em;
+	margin-top:0.5em;
+	color:white;
+}
+	
+.enviar:hover {
+	background-color:darkgrey;
+	font-family:'demonpriest';
+	font-size:24px;
+	margin-left:5em;
+	margin-top:0.5em;
+	color:white;
+}
+/*--------------------PIE-------------------------------*/
+/*Etiquetas pie para todos los tamaños*/
+#pie {
+	background-color:#9400D3;
+	display:flex;
+	justify-content:space-around;
+}
+	
+#pie p {
+	color:darkgrey;
+	font-size:20px;
+}
+	
+#pie em {
+	color:white;
+	font-size:20px;
+	}
+	
+.poAvi {
+	margin-top:0.9em;
+	color:white;
+	font-size:24px;
+	font-family:'demonpriest';
+	text-decoration:none;
+}
